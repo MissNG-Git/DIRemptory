@@ -1,10 +1,11 @@
 import React from "react";
+import banner from "./banner.png";
 
 function Header() {
   return (
-    <div className="header">
-      <p>I'm a header!</p>
-    </div>
+    <header className="header">
+      <img src={banner} alt="Employee Directory banner"></img>
+    </header>
   );
 }
 
