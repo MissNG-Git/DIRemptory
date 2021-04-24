@@ -1,6 +1,6 @@
 # Unit 19 React Homework: Employee Directory
 
-## ⋘ ──── ∗⋅◦∘◈\[[DIRemptory](https://github.com/MissNG-Git/DIRemptory)\]◈∘◦⋅∗ ──── ⋙
+## ⋘ ──── ∗⋅◦∘◈\[[DIRemptory](https://missng-git.github.io/DIRemptory)\]◈∘◦⋅∗ ──── ⋙
 
 **DIRemptory** is an employee directory created for the benefit of employees and managers to allow the ability to view non-sensitive data about other employees. Built with React.js, this application provides the user with quick access to employee information such as name, email, birthday, address, phone number & password.
 
@@ -27,19 +27,18 @@ List of Technologies Utilized include...
 The following images show the web application's appearance & functionality:
 
 <p float="left">
-    <img src="https://via.placeholder.com/150" alt="DIRemptory" width="250" style="margin-right: 10px;" />
+    <img src="/public/assets/img/capture.png" alt="DIRemptory" width="250" style="margin-right: 10px;" />
 </p>
 
 ### ≫ ──── ≪•◦ CODE FUNCTIONALITY ◦•≫ ──── ≪
 
-- Application allows user to view table of employees showing random users generated from [Random User API](https://randomuser.me/).
+- Application allows user to view table of employees displaying random users generated from [Random User API](https://randomuser.me/).
 
-- Application allows user to sort table by at least one category.
+- Application allows user to sort/search table by a handful of categories.
 
-- Application is successfully deployed with GitHub Pages and can be visited [here](https://github.com/MissNG-Git/DIRemptory)!
+- Application is successfully deployed with GitHub Pages and can be visited [here](https://missng-git.github.io/DIRemptory)!
 
 ### ≫ ──── ≪•◦ USABILITY ◦•≫ ──── ≪
 
-1. Navigate to deployed application page on [GitHub Pages](https://github.com/MissNG-Git/DIRemptory)
-2. ...
-3. ...
+1. Navigate to deployed application page on [GitHub Pages](https://missng-git.github.io/DIRemptory)
+2. Enter search variable into search bar. Filters that are currently available include by name, phone number, email address and date of birth.
