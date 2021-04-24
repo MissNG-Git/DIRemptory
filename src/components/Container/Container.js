@@ -46,7 +46,7 @@ class Container extends Component {
   filterEmployees = (input) => {
     if (input) {
       this.setState({
-        filteredEmployees: this.state.employees.filter((employee) => {
+        filterEmployees: this.state.employees.filter((employee) => {
           return (
             // search by first name
             employee.name.first
@@ -60,23 +60,23 @@ class Container extends Component {
             // replace word character & whitespace, global-matched & case-sensitive
             employee.phone.replace(/[^\w\s]/gi, "").includes(input) ||
             // search by email
-            employee.email.includes(input)
-            // this.formatDate(employee.dob.date).includes(input)
+            employee.email.includes(input) ||
+            // search by DoB
+            employee.dob.date.includes(input)
           );
         }),
       });
     } else {
-      this.setState({ filteredEmployees: this.state.employees });
+      this.setState({ filterEmployees: this.state.employees });
     }
   };
 
   sortBy = () => {};
-  formatDate = () => {};
+  // formatDate = () => {};
 
   render() {
     return (
       <div className="container">
-        <p>I'm a container!</p>
         <Search
           value={this.state.search}
           handleInputChange={this.handleInputChange}

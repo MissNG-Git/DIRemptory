@@ -2,6 +2,7 @@ import React from "react";
 import Row from "../Row/Row";
 
 function Table(props) {
+  // console.log(props.state);
   return (
     <table className="table">
       <thead>
@@ -24,9 +25,7 @@ function Table(props) {
         </tr>
       </thead>
 
-      <tbody>
-        <Row />
-      </tbody>
+      <Row employees={props.state} />
     </table>
   );
 }
