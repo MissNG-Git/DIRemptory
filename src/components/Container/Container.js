@@ -8,7 +8,7 @@ class Container extends Component {
     search: "",
     employees: [],
     filterEmployees: [],
-    order: "",
+    sortBy: "",
   };
 
   // initialize app to display employee api on page
@@ -70,6 +70,9 @@ class Container extends Component {
     }
   };
 
+  sortBy = () => {};
+  formatDate = () => {};
+
   render() {
     return (
       <div className="container">
@@ -81,9 +84,9 @@ class Container extends Component {
         />
         <Table
           state={this.state}
-          sortBy={this.sortBy}
+          // sortBy={this.sortBy} -- for ascending/descending ordering
           filterEmployees={this.filterEmployees}
-          // formatDate={this.formatDate}
+          // formatDate={this.formatDate} -- for formatting DoB
         />
       </div>
     );
