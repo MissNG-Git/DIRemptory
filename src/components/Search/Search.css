@@ -1,0 +1,26 @@
+.search-container {
+  display: block;
+}
+
+.search-span {
+  float: left;
+}
+
+.search-bar {
+  border-radius: 15px darkgray;
+  width: 200%;
+}
+
+.filter-span,
+#dropdown-basic-button {
+  float: right;
+}
+
+.genderFilter {
+  margin: auto 5px;
+}
+
+#filter-btn {
+  border-radius: 5px;
+  font-size: 75%;
+}
