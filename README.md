@@ -28,7 +28,7 @@ The following images show the web application's appearance & functionality:
 
 <p float="left">
     <img src="./public/assets/img/capture.png" alt="DIRemptory" width="250" style="margin-right: 10px;" />
-    <img src="./public/assets/img/capture-2.png" alt="DIRemptory Search" width="390" style="margin-right: 10px;" />
+    <img src="./public/assets/img/capture-2.PNG" alt="DIRemptory Search" width="390" style="margin-right: 10px;" />
 </p>
 
 ### ≫ ──── ≪•◦ CODE FUNCTIONALITY ◦•≫ ──── ≪
