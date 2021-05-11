@@ -1,4 +1,4 @@
-# Unit 19 React Homework: Employee Directory
+# Unit 19 React: Employee Directory
 
 ## ⋘ ──── ∗⋅◦∘◈\[[DIRemptory](https://missng-git.github.io/DIRemptory)\]◈∘◦⋅∗ ──── ⋙
 
